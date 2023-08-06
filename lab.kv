@@ -1,0 +1,570 @@
+windowmanager:
+    WidgetsExample:
+    Secondscreen:
+    Thirdscreen:
+    ForthScreen:
+    fifthscreen:
+
+<WidgetsExample>:
+    
+    name: "Home"
+  
+    GridLayout:
+        Image: 
+            size: root.width, root.height
+            pos:0,0
+            source: "prep.png"
+            allow_stretch: True
+            keep_ratio: False
+            
+            
+            Button:
+                text: "Arithmetic"
+                pos: 200 , 700
+                color : .5,1,.5
+                font_size: 70
+                width: 450
+                height:150
+                background_color : 1,1,1
+                on_release: app.root.current = "ssc"
+        
+            Button:
+                text: "Reasoning"
+                pos: 200 , 500
+                color : .5,1,.5
+                font_size: 70
+                width: 450
+                height:150
+                background_color : 1,1,1
+                on_release: app.root.current = "reasoning"
+            Button:
+                text: "English"
+                pos: 200 , 300
+                color : .5,1,.5
+                font_size: 70
+                width: 450
+                height:150
+                background_color : 1,1,1
+                on_release: app.root.current = "english"
+            Button:
+                text: "Coding"
+                pos: 200 , 100
+                color : .5,1,.5
+                font_size: 70
+                height:150
+                width: 450
+                background_color : 1,1,1
+                on_release: app.root.current = "code"
+        
+
+<Secondscreen>:
+    name: "ssc"
+    GridLayout:
+        Image: 
+            size: root.width, root.height
+            pos:0,0
+            source: "final.png"
+            allow_stretch: True
+            keep_ratio: False
+
+            Button: 
+                text: "Percentage"
+                pos: 50,850
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('fOJlpSioC_U')
+                background_color:0.1,0,1          
+            Button: 
+                text: "Ratio & Proportion"
+                pos: 400,850
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('V8tcZZIFJew')
+                background_color:0.1,0,1
+
+            Button: 
+                text: "Age"
+                pos: 750,850
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('88amN0GMrY4')
+                background_color:0.1,0,1
+            
+            Button: 
+                text: "Patnership"
+                pos: 1100,850
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('K-fm8PGL60E')
+                background_color:0.1,0,1
+
+            Button: 
+                text: "LCM & HCF"
+                pos: 1450,850
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('ARwSOZSKcak')
+                background_color:0.1,0,1
+            
+            Button: 
+                text: "Average"
+                pos: 50,650
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('GWVQbRZ-0rU')
+                background_color:0.1,0,1
+            
+            Button: 
+                text: "Simple Interest"
+                pos: 400,650
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('ou26BK_K_PU')
+                background_color:0.1,0,1      
+            Button: 
+                text: "Compund Interest"
+                pos: 750,650
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('kHZJEI9jNGw')
+                background_color:0.1,0,1
+            Button: 
+                text: "Mixture & Alligation"
+                pos: 1100,650
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('BS7XZujeB2M')
+                background_color:0.1,0,1
+    
+            Button: 
+                text: "Numbers"
+                pos: 1450,650
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('4OHUl2bHaF0')
+                background_color:0.1,0,1  
+       
+            Button: 
+                text: "Probability"
+                pos: 50,450
+                width: 300
+                font_size:20
+                color: 1,1,1
+                on_release:  root.open_percentage('yKRW1FkVpdQ')
+                background_color:0.1,0,1  
+        
+            Button: 
+                text: "Logarithim"
+                pos: 400,450
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('j1pDmQJ0wOY')
+                background_color:0.1,0,1
+        
+            
+            Button: 
+                text: "Time & Work"
+                pos: 750,450
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('WYIWls2CAMA')
+                background_color:0.1,0,1  
+        
+            Button: 
+                text: "Pipe & Cistern"
+                pos: 1100,450
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('NVxeROG06Ew')
+                background_color:0.1,0,1
+
+            Button: 
+                text: "Boat & Streams"
+                pos: 1450,450
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('yp2tgfwT3YU')
+                background_color:0.1,0,1 
+        
+            Button: 
+                text: "Permutation & Combination"
+                pos: 50,250
+                width: 300
+                font_size:20
+                color: 1,1,1
+                on_release:  root.open_percentage('qDxRqeM_IR4')
+                background_color:0.1,0,1          
+    
+            Button: 
+                text: "Algebra"
+                pos: 400,250
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('0-MvXFIODRs&t=7s')
+                background_color:0.1,0,1    
+
+            Button: 
+                text: "Time, Speed & Distance"
+                pos: 750,250
+                width: 300
+                font_size:20
+                color: 1,1,1
+                on_release:  root.open_percentage('ts2b1_nl2AM')
+                background_color:0.1,0,1
+       
+            Button: 
+                text: "Area"
+                pos: 1100,250
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('xwqUyOT-cmU')
+                background_color:0.1,0,1 
+
+            Button: 
+                text: "Profit & Loss"
+                pos: 1450,250
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('b_RoEHnB_YA')
+                background_color:0.1,0,1 
+        
+            Button: 
+                text: "Mensuration"
+                pos: 50,50
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('yx5x05ukKUI')
+                background_color:0.1,0,1 
+            
+            Button: 
+                text: "Data Interpretation"
+                pos: 400,50
+                width: 300
+                font_size:25
+                color: 1,1,1
+                on_release:  root.open_percentage('f_81iD62SWU')
+                background_color:0.1,0,1
+            Button:
+                text: "Back"
+                pos: 1650,50
+                width: 100
+                height: 70
+                on_release: app.root.current = "Home"
+<Thirdscreen>:
+    name: "reasoning"
+    GridLayout:
+        Image: 
+            size: root.width, root.height
+            pos:0,0
+            source: "final.png"
+            allow_stretch: True
+            keep_ratio: False
+
+        Button: 
+            text: "Alphanumeric series"
+            pos: 50,850
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('hNDhVbZOvNY')
+            background_color:0.1,0.1,1
+            
+        Button: 
+            text: "Blood Relation"
+            pos: 450,850
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('E7DFrd1IsYQ')
+            background_color:0.1,0.1,1
+
+        Button: 
+            text: "Calendars"
+            pos: 850,850
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('HO18FA-2Jck')
+            background_color:0.1,0.1,1
+            
+        Button: 
+            text: "Clocks"
+            pos: 1250,850
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('FseNKp2iIVk')
+            background_color:0.1,0.1,1
+
+        Button: 
+            text: "Coding-Decoding"
+            pos: 50,650
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('-5IejfbM_QE')
+            background_color:0.1,0.1,1
+            
+        Button: 
+            text: "Decision Making"
+            pos: 450,650
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('VlyLm80KXD8')
+            background_color:0.1,0.1,1
+            
+        Button: 
+            text: "Data Sufficeincy"
+            pos: 850,650
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('bP0Q_S4Zuro')
+            background_color:0.1,0.1,1      
+        Button: 
+            text: "Dices"
+            pos: 1250,650
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('zGLh9WFdWw0')
+            background_color:0.1,0.1,1
+        Button: 
+            text: "Direction"
+            pos: 50,450
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('yAKEjcSQ11c')
+            background_color:0.1,0.1,1
+    
+        Button: 
+            text: "Input-Output"
+            pos: 450,450
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('0QqeqzKPHqw')
+            background_color:0.1,0.1,1  
+       
+        Button: 
+            text: "Puzzles"
+            pos: 850,450
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('QY7Jb8_xpPQ')
+            background_color:0.1,0.1,1 
+        
+        Button: 
+            text: "Order & Ranking"
+            pos: 1250,450
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('hclIhsGfD2M')
+            background_color:0.1,0.1,1
+        
+            
+        Button: 
+            text: "Seating Arrangement"
+            pos: 50,250
+            width: 300
+            font_size:20
+            color: 1,0,1
+            on_release:  root.open_percentage('4ldEvOF58-g')
+            background_color:0.1,0.1,1 
+
+        Button: 
+            text: "Statement & Assumptions"
+            pos: 450,250
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('hRPJCOktu-k')
+            background_color:0.1,0.1,1 
+        
+        Button: 
+            text: "Statement & Conclusions"
+            pos: 850,250
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('q0SvHjqxziI')
+            background_color:0.1,0.1,1          
+    
+        Button: 
+            text: "Syllogism"
+            pos: 1250,250
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('VkwnIBoqyDY')
+            background_color:0.1,0.1,1    
+
+       
+        Button: 
+            text: "Cause & Effect"
+            pos: 50,50
+            width: 300
+            font_size:25
+            color: 1,0,1
+            on_release:  root.open_percentage('zqVHsBO88Tg')
+            background_color:0.1,0.1,1 
+        
+        Button:
+            text: "Back"
+            pos: 1450,50
+            color: 1,.5,.5
+            width: 100
+            height: 70
+            background_color: .5,.5,1
+            on_release: app.root.current = "Home"
+
+<ForthScreen>:
+    name: "english"
+    GridLayout:
+        Image: 
+            size: root.width, root.height
+            pos:0,0
+            source: "final.png"
+            allow_stretch: True
+            keep_ratio: False
+        Button:
+            text: "Rearrangement"
+            pos: 450,600
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0,1,0.5
+            on_release:  root.open_percentage('hGpJ2ZxAHHo')
+        Button:
+            text: "Error Detection"
+            pos: 900,600
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0,1,0.5
+            on_release:  root.open_percentage('zKCPeZ1N1hc')
+        Button:
+            text: "Fill in the Blanks"
+            pos: 450,350
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0,1,0.5
+            on_release:  root.open_percentage('Tvhhygthnys')
+        Button:
+            text: "Passages"
+            pos: 900,350
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0,1,0.5
+            on_release:  root.open_percentage('Xx2C9o6QcKg')
+        Button:
+            text: "Back"
+            pos: 1200,50
+            width: 100
+            height: 70
+            on_release: app.root.current = "Home"
+
+<fifthscreen>:
+    name: "code"
+    GridLayout:
+        Image: 
+            size: root.width, root.height
+            pos:0,0
+            source: "final.png"
+            allow_stretch: True
+            keep_ratio: False
+        Button:
+            text: "C Program"
+            pos: 400,750
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('ZSPZob_1TOk&t=19600s')
+        Button:
+            text: "PYTHON"
+            pos: 1000,750
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('gfDE2a7MKjA')
+        Button:
+            text: "JAVA"
+            pos: 400,550
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('VZg5r9i90z0&t=6040s')
+        Button:
+            text: "C++ "
+            pos: 1000,550
+            height: 150
+            width: 400
+            font_size: 50
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('oi1ffu6lBXE')
+        Button:
+            text: "DATA STRUCTURES "
+            pos: 400,350
+            height: 150
+            width: 400
+            font_size: 40
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('hCrO_cR7kno')
+        Button:
+            text: "OPERATING SYSTEM"
+            pos: 1000,350
+            height: 150
+            width: 400
+            font_size: 40
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('8XBtAjKwCm4')
+
+        Button:
+            text: "COMPUTER NETWORKING"
+            pos: 400,150
+            height: 150
+            width: 400
+            font_size: 30
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('IPvYjXCsTg8')
+        Button:
+            text: "SOFTWARE ENGINEERING"
+            pos: 1000,150
+            height: 150
+            width: 400
+            font_size: 30
+            background_color:0.5,0.5,1
+            on_release:  root.open_percentage('5LU8rjlTq2g')
+        Button:
+            text: "Back"
+            pos: 1300,50
+            width: 100
+            height: 70
+            on_release: app.root.current = "Home"
